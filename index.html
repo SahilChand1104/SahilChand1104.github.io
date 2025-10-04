@@ -11,9 +11,8 @@
             background-color: #3498db;
         }
 
-        
         #main article.post {
-            border: 1px solid #ddd; /* Add a border around each project box */
+            border: 1px solid #ddd;
             border-radius: 10px; 
             margin-bottom: 30px; 
             overflow: hidden; 
@@ -37,7 +36,7 @@
         }
 
         #main article.post .actions.special .button {
-            background-color: #3498db; /* Match the button color with the background color */
+            background-color: #3498db;
             color: #fff;
             border: none;
             padding: 10px 20px;
@@ -45,11 +44,11 @@
         }
 
         #main article.post .actions.special .button:hover {
-            background-color: #2980b9; /* Change button color on hover for feedback */
+            background-color: #2980b9;
         }
 
         #footer {
-            background-color: #2c3e50; /* Set a background color for the footer */
+            background-color: #2c3e50;
             color: #126a80;
             text-align: center;
             padding: 2em 0; 
@@ -60,63 +59,80 @@
         }
 
         #footer ul.icons.alt a {
-            color: #ecf0f1; /* Set social icon color */
+            color: #ecf0f1;
         }
+
         #footer ul.icons.alt {
-        display: flex;
-        justify-content: flex-end; /* Align icons to the right */
-        align-items: flex-end; /* Align icons to the bottom */
-        margin-top: 1em; 
-    }
-
-    #footer ul.icons.alt li {
-        margin: 0 10px; 
-    }
-
-    #footer ul.icons.alt a {
-        color: #ecf0f1; /* Set social icon color */
-    }
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            margin-top: 1em; 
+        }
     </style>
 </head>
 
 <body class="is-preload blue-background">
-    <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
+
         <!-- Intro -->
         <div id="intro">
             <h1>Sahil Chand Portfolio<br /></h1>
             <p>Dedicated Computing Science student at Simon Fraser University with a strong passion for technology</p>
-            Here is a link to my<a href="https://github.com/SahilChand1104">Github</a>
+            Here is a link to my <a href="https://github.com/SahilChand1104">Github</a>
             <ul class="actions">
                 <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
             </ul>
         </div>
+
         <!-- Header -->
         <header id="header">
             <a href="index.html" class="logo">Sahil Chand</a>
         </header>
+
         <!-- Main -->
         <div id="main">
-            <!-- Featured Post -->
+
+            <!-- Featured Post (Now Full-Stack AI Interview Simulator) -->
             <article class="post featured">
                 <header class="major">
-                    <h2><a href="https://github.com/SahilChand1104/Memory_game">Crazy Matching<br /></a></h2>
-                    <p><strong>Language used: Kotlin</strong></p>
-                    <p>In this project, I developed an Android app called Crazy Matching. This was done in Android Studio
-                        using Kotlin. Crazy Matching is a simple yet addictive matching game that consists of four
-                        difficulty levels and a refresh button to provide seamless gameplay. The game unfortuantely got taken down off the google play store.
+                    <h2><a href="https://github.com/SahilChand1104/Full-Stack-AI-Interview-Simulator">Full-Stack-AI-Interview-Simulator<br /></a></h2>
+                    <p><strong>Language used: JavaScript, Tailwind </strong></p>
+                    <p>Developed a full-stack AI interview simulator that utilizes the Gemini AI API to generate tailored interview
+                        questions based on job titles, reducing manual preparation time by 90%.
+                        Integrated React Hook for speech-to-text, allowing spoken answers to be transcribed with 95% accuracy and stored
+                        in PostgreSQL via React and Node.js.
+                        Built a user-friendly front end with Next.js, TailwindCSS, and ShadCN components, improving UI consistency and
+                        reducing development time by 20%.
+                        Implemented a feedback and redo system for past interviews using PostgreSQL, boosting user confidence by 50%.
                     </p>
                 </header>
-                <a href="https://github.com/SahilChand1104/Memory_game" class="image main"><img
-                        src="images/Crazy Matching easy.PNG" alt="" /></a>
+                <a href="https://github.com/SahilChand1104/Full-Stack-AI-Interview-Simulator" class="image main"><img src="images/fullstack.png"
+                        alt="" /></a>
                 <ul class="actions special">
-                    <li><a href="https://github.com/SahilChand1104/Memory_game" class="button large">View Project</a></li>
+                    <li><a href="https://github.com/SahilChand1104/Full-Stack-AI-Interview-Simulator" class="button large">View Project</a></li>
                 </ul>
             </article>
             
-            
-            <!-- Other Posts ... -->
+            <!-- Other Posts -->
             <section class="posts">
+
+                <!-- Crazy Matching moved here -->
+                <article>
+                    <header class="major">
+                        <h2><a href="https://github.com/SahilChand1104/Memory_game">Crazy Matching<br /></a></h2>
+                        <p><strong>Language used: Kotlin</strong></p>
+                    </header>
+                    <a href="https://github.com/SahilChand1104/Memory_game" class="image fit"><img
+                            src="images/Crazy Matching easy.PNG" alt="" /></a>
+                    <p>In this project, I developed an Android app called Crazy Matching. This was done in Android Studio
+                        using Kotlin. Crazy Matching is a simple yet addictive matching game that consists of four
+                        difficulty levels and a refresh button to provide seamless gameplay. The game unfortunately got taken down off the Google Play store.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/SahilChand1104/Memory_game" class="button">View Project</a></li>
+                    </ul>
+                </article>
+
                 <article>
                     <header class="major">
                         <h2><a href="https://github.com/SahilChand1104/Crazy-Pong">Crazy Pong<br /></a></h2>
@@ -160,137 +176,129 @@
                     </ul>
                 </article>
 
-                <!--<section class="posts">-->
-                    <article>
-                        <header class ="major">
-                            <h2><a href="https://github.com/SahilChand1104/Sliding-Puzzle-Solver">Sliding Puzzle Solver<br /></a></h2>
-                            <p><strong>Language used: Java</strong></p>
-                        </header>
-                        <a href="https://github.com/SahilChand1104/Sliding-Puzzle-Solver" class="image fit"><img src="images/sliding puzzle.jpg" alt="" /></a>
-                        <p>A Java based Sliding Puzzle Solver that can solve boards that range from 3x3 all the way to 9x9, and can do this in under 30 seconds!
-                            The sliding puzzle game is a classic tabletop or digital game where players rearrange tiles or pieces within a grid to achieve a specific pattern
-                             or arrangement by sliding them one at a time into an empty space. The solver I created returns a text file containing the most optimal moves to solve the puzzle.
-                        </p>
-                        <ul class="actions special">
-                            <li><a href="https://github.com/SahilChand1104/Sliding-Puzzle-Solver" class="button">View Project</a></li>
-                        </ul>
-                    </article>
+                <article>
+                    <header class ="major">
+                        <h2><a href="https://github.com/SahilChand1104/Sliding-Puzzle-Solver">Sliding Puzzle Solver<br /></a></h2>
+                        <p><strong>Language used: Java</strong></p>
+                    </header>
+                    <a href="https://github.com/SahilChand1104/Sliding-Puzzle-Solver" class="image fit"><img src="images/sliding puzzle.jpg" alt="" /></a>
+                    <p>A Java based Sliding Puzzle Solver that can solve boards that range from 3x3 all the way to 9x9, and can do this in under 30 seconds!
+                        The sliding puzzle game is a classic tabletop or digital game where players rearrange tiles or pieces within a grid to achieve a specific pattern
+                         or arrangement by sliding them one at a time into an empty space. The solver I created returns a text file containing the most optimal moves to solve the puzzle.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/SahilChand1104/Sliding-Puzzle-Solver" class="button">View Project</a></li>
+                    </ul>
+                </article>
 
-                    <article>
-                        <header class ="major">
-                            <h2><a href="Cshell.html">Custom Linux Shell<br /></a></h2>
-                            <p><strong>Language used: C</strong></p>
-                        </header>
-                        <a href="Cshell.html" class="image fit"><img src="images/Cshell image.PNG" alt="" /></a>
-                        <p>Created a custom linux shell from scratch, supports extra commands: print, log, theme and exit.
-                            Implemented environmental variable assignment and offered two distinct modes: script and interactive.
-                            Script mode takes in a file containing instructions and completes all the listed tasks.
-                            Interactive mode allowed the user to take control and perform various tasks.
-                            Built it on an Ubuntu virtual machine and extensively tested it using Valgrind.                     
-                        </p>
-                        <ul class="actions special">
-                            <li><a href="Cshell.html" class="button">View Project</a></li>
-                        </ul>
-                    </article>
-                    <article>
-                        <header class ="major">
-                            <h2><a href="https://github.com/SahilChand1104/Machine-Learning-for-Prediction">Rented Bikes and Forest Fire Predictor<br /></a></h2>
-                            <p><strong>Language used: Python</strong></p>
-                        </header>
-                        <a href="https://github.com/SahilChand1104/Machine-Learning-for-Prediction" class="image fit"><img src="images/fire.jpg" alt="" /></a>
-                        <p> Made a model to predict when forest fires will happen and the best time to rent a bike. Trained Linear Regression Models using scikit-learn, created both training and test sets
-                            Successfully processed and trained machine learning models on diverse datasets, showcasing adaptability and curiosity in tackling complex real-world scenarios
-                            Expanded project scope by incorporating additional datasets, demonstrating the ability to go beyond standard requirements, adapt to different data structures, and apply machine learning principles to diverse domains.
-                        </p>
-                        <ul class="actions special">
-                            <li><a href="https://github.com/SahilChand1104/Machine-Learning-for-Prediction" class="button">View Project</a></li>
-                        </ul>
-                    </article>
+                <article>
+                    <header class ="major">
+                        <h2><a href="Cshell.html">Custom Linux Shell<br /></a></h2>
+                        <p><strong>Language used: C</strong></p>
+                    </header>
+                    <a href="Cshell.html" class="image fit"><img src="images/Cshell image.PNG" alt="" /></a>
+                    <p>Created a custom linux shell from scratch, supports extra commands: print, log, theme and exit.
+                        Implemented environmental variable assignment and offered two distinct modes: script and interactive.
+                        Script mode takes in a file containing instructions and completes all the listed tasks.
+                        Interactive mode allowed the user to take control and perform various tasks.
+                        Built it on an Ubuntu virtual machine and extensively tested it using Valgrind.                     
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="Cshell.html" class="button">View Project</a></li>
+                    </ul>
+                </article>
+                
+                <article>
+                    <header class ="major">
+                        <h2><a href="https://github.com/SahilChand1104/Machine-Learning-for-Prediction">Rented Bikes and Forest Fire Predictor<br /></a></h2>
+                        <p><strong>Language used: Python</strong></p>
+                    </header>
+                    <a href="https://github.com/SahilChand1104/Machine-Learning-for-Prediction" class="image fit"><img src="images/fire.jpg" alt="" /></a>
+                    <p> Made a model to predict when forest fires will happen and the best time to rent a bike. Trained Linear Regression Models using scikit-learn, created both training and test sets
+                        Successfully processed and trained machine learning models on diverse datasets, showcasing adaptability and curiosity in tackling complex real-world scenarios
+                        Expanded project scope by incorporating additional datasets, demonstrating the ability to go beyond standard requirements, adapt to different data structures, and apply machine learning principles to diverse domains.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/SahilChand1104/Machine-Learning-for-Prediction" class="button">View Project</a></li>
+                    </ul>
+                </article>
 
-                    <article>
-                        <header class ="major">
-                            <h2><a href="https://www.figma.com/file/AsioBE4ffvlBaiCb4xTBKY/CMPT-363-Project-P3?type=design&node-id=0-1&mode=design&t=oLJpuhpQs6Jiqh8q-0">Virtual Fridge<br /></a></h2>
-                            <p><strong>Technology used: Figma</strong></p>
-                        </header>
-                        <a href="https://www.figma.com/file/AsioBE4ffvlBaiCb4xTBKY/CMPT-363-Project-P3?type=design&node-id=0-1&mode=design&t=oLJpuhpQs6Jiqh8q-0" class="image fit"><img src="images/Fridge.PNG" alt="" /></a>
-                        <p> Worked with three other team members to design the interface a virtual fridge app.
-                            Utilized Figma to create horizontal and vertical prototypes of various features, such as adding items to the fridge and searching for recipes.
-                            Promoted inclusive design by allowing the creation and customization of various user accounts.
-                            Fits in with modern trends such as solving issues for both the user and the world, for example our design promotes healthier lifestyles and environment friendly meals.
-                        </p>
-                        <ul class="actions special">
-                            <li><a href="https://www.figma.com/file/AsioBE4ffvlBaiCb4xTBKY/CMPT-363-Project-P3?type=design&node-id=0-1&mode=design&t=oLJpuhpQs6Jiqh8q-0" class="button">View Project</a></li>
-                        </ul>
-                    </article>
+                <article>
+                    <header class ="major">
+                        <h2><a href="https://www.figma.com/file/AsioBE4ffvlBaiCb4xTBKY/CMPT-363-Project-P3?type=design&node-id=0-1&mode=design&t=oLJpuhpQs6Jiqh8q-0">Virtual Fridge<br /></a></h2>
+                        <p><strong>Technology used: Figma</strong></p>
+                    </header>
+                    <a href="https://www.figma.com/file/AsioBE4ffvlBaiCb4xTBKY/CMPT-363-Project-P3?type=design&node-id=0-1&mode=design&t=oLJpuhpQs6Jiqh8q-0" class="image fit"><img src="images/Fridge.PNG" alt="" /></a>
+                    <p> Worked with three other team members to design the interface a virtual fridge app.
+                        Utilized Figma to create horizontal and vertical prototypes of various features, such as adding items to the fridge and searching for recipes.
+                        Promoted inclusive design by allowing the creation and customization of various user accounts.
+                        Fits in with modern trends such as solving issues for both the user and the world, for example our design promotes healthier lifestyles and environment friendly meals.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="https://www.figma.com/file/AsioBE4ffvlBaiCb4xTBKY/CMPT-363-Project-P3?type=design&node-id=0-1&mode=design&t=oLJpuhpQs6Jiqh8q-0" class="button">View Project</a></li>
+                    </ul>
+                </article>
 
-                    <article>
-                        <header class ="major">
-                            <h2><a href="https://github.com/SahilChand1104/SahilChand1104.github.io">Portfolio Website<br /></a></h2>
-                            <p><strong>Languages used: CSS, HTML</strong></p>
-                        </header>
-                        <a href="https://github.com/SahilChand1104/SahilChand1104.github.io" class="image fit"><img src="images/Portfolio.PNG" alt="" /></a>
-                        <p> The website that you are on right now is one of my favorite projects! As I started working on more and more projects,
-                            I wanted a place to show off what I made. So I made this website using CSS and HTML, and I am constantly working on and updating this website.
-                            Whenever I complete a project, the first thing I do is add it to this website.
-                        </p>
-                        <ul class="actions special">
-                            <li><a href="https://github.com/SahilChand1104/SahilChand1104.github.io" class="button">View Project</a></li>
-                        </ul>
-                    </article>
+                <article>
+                    <header class ="major">
+                        <h2><a href="https://github.com/SahilChand1104/SahilChand1104.github.io">Portfolio Website<br /></a></h2>
+                        <p><strong>Languages used: CSS, HTML</strong></p>
+                    </header>
+                    <a href="https://github.com/SahilChand1104/SahilChand1104.github.io" class="image fit"><img src="images/Portfolio.PNG" alt="" /></a>
+                    <p> The website that you are on right now is one of my favorite projects! As I started working on more and more projects,
+                        I wanted a place to show off what I made. So I made this website using CSS and HTML, and I am constantly working on and updating this website.
+                        Whenever I complete a project, the first thing I do is add it to this website.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/SahilChand1104/SahilChand1104.github.io" class="button">View Project</a></li>
+                    </ul>
+                </article>
 
-                    <article>
-                        <header class ="major">
-                            <h2><a href="https://github.com/SahilChand1104/Crazy-Hockey">Crazy Hockey<br /></a></h2>
-                            <p><strong>Languages used: JavaScript, CSS, HTML</strong></p>
-                        </header>
-                        <a href="https://github.com/SahilChand1104/Crazy-Hockey" class="image fit"><img src="images/Crazy Hockey.PNG" alt="" /></a>
-                        <p> Created a fun air hockey variant where the puck increases in speed each time it is hit.
-                            Utilized CSS to design and style the webpage, including layout structuring and color schemes. 
-                            Structured the webpage's elements and content using HTML to provide a foundation for the game's presentation. 
-                            Implemented the games logic and physics using JavaScript. If you want to play it press <a href="https://sahilchand1104.github.io/Crazy-Hockey/">here</a>	
-                            
-                        </p>
-                        <ul class="actions special">
-                            <li><a href="https://github.com/SahilChand1104/Crazy-Hockey" class="button">View Project</a></li>
-                        </ul>
-                    </article>
+                <article>
+                    <header class ="major">
+                        <h2><a href="https://github.com/SahilChand1104/Crazy-Hockey">Crazy Hockey<br /></a></h2>
+                        <p><strong>Languages used: JavaScript, CSS, HTML</strong></p>
+                    </header>
+                    <a href="https://github.com/SahilChand1104/Crazy-Hockey" class="image fit"><img src="images/Crazy Hockey.PNG" alt="" /></a>
+                    <p> Created a fun air hockey variant where the puck increases in speed each time it is hit.
+                        Utilized CSS to design and style the webpage, including layout structuring and color schemes. 
+                        Structured the webpage's elements and content using HTML to provide a foundation for the game's presentation. 
+                        Implemented the games logic and physics using JavaScript. If you want to play it press <a href="https://sahilchand1104.github.io/Crazy-Hockey/">here</a>	
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/SahilChand1104/Crazy-Hockey" class="button">View Project</a></li>
+                    </ul>
+                </article>
 
-                    <article>
-                        <header class ="major">
-                            <h2><a href="https://github.com/SahilChand1104/Racoon-Rush">Raccoon Rush<br /></a></h2>
-                            <p><strong>Language used: Java</strong></p>
-                            <p><a href="https://www.youtube.com/watch?v=FV8iqgWPEO8" target="_blank">Watch the trailer here</a></p>
-
-                        </header>
-                        <a href="https://github.com/SahilChand1104/Racoon-Rush" class="image fit"><img src="images/RaccoonRush.PNG" alt="" /></a>
-                        <p> Created a fun side scrolling game alongside 3 team members. The game is based on Simon Fraser University and you play as a Raccoon who
-                            is trying to get from one side to another. This was my first major game that I developed, the premise of the game is to collect all of the donuts
-                            in the maze and then escape before the enemies catch you.
-                            
-                        </p>
-                        <ul class="actions special">
-                            <li><a href="https://github.com/SahilChand1104/Racoon-Rush" class="button">View Project</a></li>
-                        </ul>
-                    </article>
+                <article>
+                    <header class ="major">
+                        <h2><a href="https://github.com/SahilChand1104/Racoon-Rush">Raccoon Rush<br /></a></h2>
+                        <p><strong>Language used: Java</strong></p>
+                        <p><a href="https://www.youtube.com/watch?v=FV8iqgWPEO8" target="_blank">Watch the trailer here</a></p>
+                    </header>
+                    <a href="https://github.com/SahilChand1104/Racoon-Rush" class="image fit"><img src="images/RaccoonRush.PNG" alt="" /></a>
+                    <p> Created a fun side scrolling game alongside 3 team members. The game is based on Simon Fraser University and you play as a Raccoon who
+                        is trying to get from one side to another. This was my first major game that I developed, the premise of the game is to collect all of the donuts
+                        in the maze and then escape before the enemies catch you.
+                    </p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/SahilChand1104/Racoon-Rush" class="button">View Project</a></li>
+                    </ul>
+                </article>
+            </section>
         </div>
     </div>
 
     <!-- Footer -->
     <footer id="footer">
-        <h3></h3>
         <ul class="icons alt">
             <li><a href="https://github.com/SahilChand1104" class="icon brands alt fa-github"><span
                         class="label">GitHub</span></a></li>
             <li><a href="https://www.linkedin.com/in/sahil-chand-613192293/" class="icon brands alt fa-linkedin"><span
                         class="label">LinkedIn</span></a></li>
         </ul>
-        <!-- Copyright -->
         <div id="copyright">
-            <ul>
-            <!--<li>&copy; Untitled</li>
-                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-            -->
-            </ul>
+            <ul></ul>
         </div>
     </footer>
 
